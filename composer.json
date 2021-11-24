@@ -19,5 +19,10 @@
     {
         "name": "justudin"
     }
-    ]
+    ],
+    "scripts": {
+        "test": [
+            "phpunit tests"
+        ]
+    }
 }
