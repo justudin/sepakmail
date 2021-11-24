@@ -1,0 +1,23 @@
+{
+    "name": "justudin/sepakmail",
+    "description": "Easily check disposable mail (SEkali PAKai Mail detector)",
+    "keywords": ["disposable", "email", "checker", "detection", "filter"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "SepakMail\\": "src/",
+        "SepakMail\\Tests\\": "tests"
+      }
+    },
+    "authors": [
+    {
+        "name": "justudin"
+    }
+    ]
+}
